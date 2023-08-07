@@ -1,0 +1,64 @@
+{
+  "title": "Zombicide",
+  "id": "zombicide",
+  "system": "custom-system-builder",
+  "joinTheme": "default",
+  "coreVersion": "11.307",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "systemVersion": "2.3.1",
+  "lastPlayed": "Mon Aug 07 2023 13:58:20 GMT-0300 (Horário Padrão de Brasília)",
+  "playtime": 12921,
+  "packs": [
+    {
+      "label": "Zombicide_cards",
+      "type": "Cards",
+      "name": "zombicidecards",
+      "path": "packs/zombicidecards",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Zombies",
+      "type": "Actor",
+      "name": "zombies",
+      "path": "packs/zombies",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Macros",
+      "type": "Macro",
+      "name": "macros",
+      "path": "packs/macros",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Journal",
+      "type": "JournalEntry",
+      "name": "journal",
+      "path": "packs/journal",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
